@@ -1,0 +1,12 @@
+.Btn {
+  border: none;
+  outline: none;
+  font-size: 0.85rem;
+  font-weight: 500;
+  color: #fff;
+  background-color: hsl(12, 88%, 59%);
+  padding: 0.7rem 1.5rem;
+  border-radius: 1.5rem;
+
+  box-shadow: 0 5px 10px hsl(11, 91%, 87%);
+}

@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+  font-family: "Be Vietnam", sans-serif;
+}
+
+#root {
+  position: relative;
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+.bg {
+  position: absolute;
+  z-index: -1;
+  width: max(100vw, 600px);
+}
+
+.bg-left {
+  bottom: 0;
+  left: 0;
+}
+
+.bg-right {
+  top: -1rem;
+  right: 0;
+}
+
+.hide {
+  display: none;
+}

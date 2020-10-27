@@ -1,0 +1,28 @@
+.Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 8rem;
+}
+
+.Menu {
+  display: none;
+}
+
+img[alt="Manage"] {
+  width: max(13%, 150px);
+  height: 1.75rem;
+  transform: translateY(1.5px);
+}
+
+@media (max-width: 1050px) {
+  .Header {
+    padding: 3rem 2rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .Menu {
+    display: block;
+  }
+}
