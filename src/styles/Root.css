@@ -8,14 +8,14 @@
 
 #root {
   position: relative;
-  min-height: 100vh;
   overflow-x: hidden;
+  padding: 0 8rem;
+  min-width: 250px;
 }
 
 .bg {
   position: absolute;
   z-index: -1;
-  width: max(100vw, 600px);
 }
 
 .bg-left {
@@ -24,10 +24,36 @@
 }
 
 .bg-right {
-  top: -1rem;
-  right: 0;
+  top: -15rem;
+  right: -12rem;
 }
 
 .hide {
   display: none;
+}
+
+@media (max-width: 1050px) {
+  #root {
+    padding: 0 2rem;
+  }
+
+  .bg-right {
+    top: -20rem;
+    right: -20rem;
+  }
+}
+
+@media (max-width: 730px) {
+  #root {
+    padding: 0 1rem;
+  }
+
+  .bg {
+    width: 100vw;
+  }
+
+  .bg-right {
+    top: -2rem;
+    right: -3rem;
+  }
 }
