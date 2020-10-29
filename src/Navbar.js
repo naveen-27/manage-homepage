@@ -3,6 +3,13 @@ import classes from "./styles/Navbar.module.css";
 
 const Navbar = (props) => {
   const hideNavClass = props.isHidden ? "hide" : "";
+
+  if (hideNavClass === "") {
+    document.body.style.overflowY = "hidden";
+  } else {
+    document.body.style.overflowY = "scroll";
+  }
+
   return (
     <nav className={`${classes.Navbar} ${hideNavClass}`}>
       <ul>
