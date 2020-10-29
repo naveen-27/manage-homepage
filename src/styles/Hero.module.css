@@ -1,0 +1,32 @@
+.Hero {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Hero-Img {
+  width: 50%;
+}
+
+@media (max-width: 1050px) {
+  .Hero {
+    padding: 0 2rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .Hero {
+    padding: 0;
+  }
+}
+
+@media (max-width: 730px) {
+  .Hero {
+    flex-direction: column-reverse;
+  }
+
+  .Hero-Img {
+    width: min(100%, 400px);
+    margin-bottom: 1.5rem;
+  }
+}
