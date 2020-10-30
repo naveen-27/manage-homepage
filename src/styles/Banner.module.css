@@ -1,0 +1,39 @@
+.Banner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 8rem;
+  background-color: hsl(12, 88%, 59%);
+  position: relative;
+  overflow: hidden;
+}
+
+.Banner-Text {
+  width: 60%;
+  color: hsl(13, 100%, 96%);
+}
+
+.Banner-Text + button {
+  color: hsl(12, 88%, 59%);
+  background: hsl(13, 100%, 96%);
+  box-shadow: none;
+}
+
+@media (max-width: 800px) {
+  .Banner {
+    padding: 3rem 2rem;
+  }
+}
+
+@media (max-width: 730px) {
+  .Banner {
+    padding: 2rem 1rem;
+    flex-direction: column;
+  }
+
+  .Banner-Text {
+    width: min(100%, 400px);
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+}
