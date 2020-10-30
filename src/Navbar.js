@@ -4,10 +4,12 @@ import classes from "./styles/Navbar.module.css";
 const Navbar = (props) => {
   const hideNavClass = props.isHidden ? "hide" : "";
 
-  if (hideNavClass === "") {
-    document.body.style.overflowY = "hidden";
-  } else {
-    document.body.style.overflowY = "scroll";
+  if (window.innerWidth <= 800) {
+    if (props.isHidden) {
+      document.body.style.overflowY = "scroll";
+    } else {
+      document.body.style.overflowY = "hidden";
+    }
   }
 
   return (
