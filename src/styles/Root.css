@@ -9,8 +9,8 @@
 #root {
   position: relative;
   overflow-x: hidden;
-  padding: 0 8rem;
   min-width: 250px;
+  min-height: 100vh;
 }
 
 .bg {
@@ -28,15 +28,28 @@
   right: -12rem;
 }
 
+#banner-bg-left,
+#banner-bg-right {
+  position: absolute;
+  width: max(20%, 200px);
+  opacity: 0.07;
+}
+
+#banner-bg-left {
+  bottom: -6rem;
+  left: -4rem;
+}
+
+#banner-bg-right {
+  top: -6rem;
+  right: -4rem;
+}
+
 .hide {
   display: none;
 }
 
 @media (max-width: 1050px) {
-  #root {
-    padding: 0 2rem;
-  }
-
   .bg-right {
     top: -20rem;
     right: -20rem;
@@ -44,10 +57,6 @@
 }
 
 @media (max-width: 730px) {
-  #root {
-    padding: 0 1rem;
-  }
-
   .bg {
     width: 100vw;
   }

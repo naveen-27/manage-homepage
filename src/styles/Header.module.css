@@ -2,7 +2,7 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 2.5rem 0;
+  padding: 2.5rem 8rem;
 }
 
 .Menu {
@@ -17,12 +17,18 @@ img[alt="Manage"] {
 
 @media (max-width: 1050px) {
   .Header {
-    padding: 3rem 0;
+    padding: 3rem 2rem;
   }
 }
 
 @media (max-width: 800px) {
   .Menu {
     display: block;
+  }
+}
+
+@media (max-width: 730px) {
+  .Header {
+    padding: 2.5rem 1rem;
   }
 }
