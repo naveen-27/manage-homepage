@@ -1,0 +1,52 @@
+.Features {
+  padding: 5rem 8rem;
+  display: flex;
+  justify-content: center;
+}
+
+.Features-Hero > h1 {
+  font-size: 2rem;
+  line-height: 1.15;
+  color: hsl(228, 39%, 23%);
+  margin-bottom: 1.65rem;
+}
+
+.Features-Hero > p {
+  width: 70%;
+}
+
+.Features-Aside {
+  margin-left: 10%;
+}
+
+@media (max-width: 1050px) {
+  .Features {
+    padding: 5rem 2rem;
+  }
+}
+
+@media (max-width: 800px) {
+  .Features {
+    padding: 5rem 2rem;
+  }
+}
+
+@media (max-width: 730px) {
+  .Features {
+    flex-direction: column;
+    padding: 3rem 1rem;
+  }
+
+  .Features-Aside {
+    margin: 2rem 0 0 0;
+  }
+
+  .Features-Hero > p {
+    width: 100%;
+    margin-bottom: 2rem;
+  }
+
+  .Features-Hero {
+    text-align: center;
+  }
+}

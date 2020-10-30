@@ -1,0 +1,33 @@
+.Feature + .Feature {
+  margin-top: 2rem;
+}
+
+.Feature > p {
+  font-size: 0.85rem;
+  margin: 1rem 0 0 4.28rem;
+}
+
+.No {
+  background-color: hsla(12, 88%, 59%);
+  padding: 0.2rem 1rem 0.3rem 1rem;
+  border-radius: 20px;
+  color: #fff;
+  margin-right: 1rem;
+}
+
+.title {
+  font-size: 1rem;
+  padding: 0.2rem 0 0.3rem 0;
+  color: hsl(228, 39%, 23%);
+}
+
+@media (max-width: 730px) {
+  .Feature > p {
+    margin: 1rem 0;
+  }
+
+  .title {
+    background-color: hsl(13, 100%, 86%);
+    border-radius: 20px 0 0 20px;
+  }
+}
