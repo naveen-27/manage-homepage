@@ -19,8 +19,8 @@
 }
 
 .bg-left {
-  bottom: 0;
-  left: 0;
+  bottom: 30%;
+  left: -40%;
 }
 
 .bg-right {
@@ -47,6 +47,16 @@
 
 .hide {
   display: none;
+}
+
+.attribution {
+  padding: 1rem;
+  background: hsl(13, 100%, 96%);
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(12, 88%, 59%);
 }
 
 @media (max-width: 1050px) {

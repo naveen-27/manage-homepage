@@ -18,7 +18,7 @@ const App = () => {
       <Banner />
       <Footer />
       <img src={bg} alt="" className="bg bg-right" />
-      {/* <img src={bg} alt="" className="bg bg-left" /> */}
+      <img src={bg} alt="" className="bg bg-left" />
     </>
   );
 };
