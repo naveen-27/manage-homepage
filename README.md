@@ -10,7 +10,7 @@ This single page application [Manage Homepage]() is a solution to the Frontendme
 
 ## DESIGN
 
-![Design preview for the Manage Homepage coding challenge](./desktop-preview.jpg)
+![Design preview for the Manage Homepage coding challenge](desktop-design.jpg)
 
 ## TO RUN LOCALLY
 
