@@ -1,0 +1,115 @@
+.Footer {
+  background-color: hsl(227.1, 22.6%, 12.2%);
+  padding: 3rem 8rem;
+  color: hsl(13, 100%, 96%);
+
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-template-areas:
+    "logo links form"
+    "social links copyright";
+  grid-template-rows: repeat(5, auto);
+  align-items: center;
+  justify-items: center;
+  column-gap: 1.5rem;
+}
+
+.social {
+  grid-area: social;
+}
+
+img[alt="Manage"] {
+  grid-area: logo;
+}
+
+.Ft-links-container {
+  display: flex;
+  grid-area: links;
+  width: 100%;
+  justify-content: space-between;
+}
+
+.Copyright {
+  font-size: 0.85rem;
+  color: hsl(227, 12%, 61%);
+  grid-area: copyright;
+}
+
+.Footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.Footer-Links + .Footer-Links {
+  margin-left: 2rem;
+}
+
+.social img {
+  width: 27px;
+  align-self: bottom;
+}
+
+.social img + img {
+  margin-left: 1rem;
+}
+
+.Form {
+  display: flex;
+}
+
+.Form > input {
+  border: none;
+  border-radius: 1.5rem;
+  border: 2px solid #fff;
+  outline: none;
+  padding: 0 1rem;
+}
+
+.Form > input:focus {
+  border-color: #f25f3a;
+}
+
+.Form > button {
+  box-shadow: none;
+  margin-left: 1rem;
+  border: 2px solid #f25f3a;
+}
+
+.social img:hover {
+  opacity: 0.75;
+  cursor: pointer;
+}
+
+.Footer-Links > li:hover {
+  color: hsl(12, 88%, 59%);
+  cursor: pointer;
+}
+
+.Footer-Links > li + li {
+  margin-top: 1rem;
+}
+
+@media (max-width: 1050px) {
+  .Footer {
+    padding: 3rem 2rem;
+  }
+}
+
+@media (max-width: 810px) {
+  .Footer {
+    padding: 3rem 1rem;
+    grid-template-columns: 1fr;
+    grid-template-areas:
+      "form"
+      "links"
+      "social"
+      "logo"
+      "copyright";
+    gap: 2.5rem;
+  }
+
+  .Ft-links-container {
+    justify-content: center;
+  }
+}
