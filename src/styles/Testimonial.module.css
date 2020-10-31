@@ -1,0 +1,8 @@
+.Testimonial {
+  width: min(100%, 450px);
+  text-align: center;
+}
+
+.Name {
+  margin: 0.75rem;
+}

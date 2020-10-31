@@ -1,0 +1,34 @@
+.Testimonials {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 0 1rem 4rem 1rem;
+  gap: 1.5rem;
+}
+
+.Testimonials > h1 {
+  text-align: center;
+  color: hsl(228, 39%, 23%);
+}
+
+.Dot {
+  width: 10px;
+  height: 10px;
+  border: 1px solid hsl(12, 88%, 59%);
+  border-radius: 50%;
+  background: #fff;
+  transition: background 300ms ease-in;
+}
+
+.active {
+  background: hsl(12, 88%, 59%);
+}
+
+.Controller {
+  display: flex;
+}
+
+.Dot + .Dot {
+  margin-left: 0.5rem;
+}
