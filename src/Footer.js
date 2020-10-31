@@ -16,7 +16,11 @@ const Footer = () => {
   return (
     <footer className={classes.Footer}>
       <form className={classes.Form} onSubmit={handleSubmit}>
-        <input type="email" placeholder="Updates in your inbox..." />
+        <input
+          type="email"
+          placeholder="Updates in your inbox..."
+          name="email"
+        />
         <Button label="Go" isHiden={false} />
       </form>
 

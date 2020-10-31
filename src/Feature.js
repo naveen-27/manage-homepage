@@ -5,10 +5,10 @@ import classes from "./styles/Feature.module.css";
 const Feature = (props) => {
   return (
     <div className={classes.Feature}>
-      <h1 className={classes.title}>
+      <h3 className={classes.title}>
         <span className={classes.No}>{props.no}</span>
         {props.title}
-      </h1>
+      </h3>
       <Desc content={props.detail} />
     </div>
   );

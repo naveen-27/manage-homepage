@@ -6,9 +6,9 @@ import classes from "./styles/Banner.module.css";
 const Banner = () => {
   return (
     <div className={classes.Banner}>
-      <h1 className={classes["Banner-Text"]}>
+      <h2 className={classes["Banner-Text"]}>
         Simplify how your team works today.
-      </h1>
+      </h2>
       <Button label="Get Started" isHidden={false} />
       <img id="banner-bg-left" src={bg} alt="" />
       <img id="banner-bg-right" src={bg} alt="" />

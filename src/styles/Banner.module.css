@@ -12,6 +12,7 @@
   width: 60%;
   color: hsl(13, 100%, 96%);
   z-index: 1;
+  font-size: 2rem;
 }
 
 .Banner-Text + button {
