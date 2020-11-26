@@ -17,6 +17,6 @@ This single page application [Manage Homepage](https://manage-homepage.vercel.ap
 1. Signup for google-maps-embed API
 1. Signup for Ipify API
 1. Install create-react-app CLI
-1. Clone the repository - run `git clone https://github.com/naveen-27/ip-address-tracker.git`
+1. Clone the repository - run `git clone https://github.com/naveen-27/manage-homepage.git`
 1. Run `npm install`
 1. Then run `npm start`
